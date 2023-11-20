@@ -171,9 +171,22 @@ footer{
 }
 .footer-left{
     flex-basis: 30%;
-    background-color: lightblue;
+    padding-right: 30px;
 }
-
+.footer-left h3{
+    font-size: 2rem;
+    color: #7289DA;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.flag-image{
+    height: 1rem;
+}
+.icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
 .footer-right{
     flex-basis: 70%;
     background-color: lightcoral;
