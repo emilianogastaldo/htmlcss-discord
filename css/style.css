@@ -27,6 +27,7 @@ button{
     cursor: pointer;
     text-align: center;
     vertical-align: middle;
+    font-size: 1.4rem;
 }
 h1{
     font-size: 3rem;
@@ -99,9 +100,8 @@ header{
     padding: 0 30px;
 
 }
-.login{
-    background-color: red;
-    padding: 10px;    
+.topheader button{
+    font-size: 1rem;
 }
 /* JUMBOTRON */
 .jumbotron{
@@ -122,11 +122,6 @@ header{
     padding: 20px;
     line-height: 1.5;
 }
-.jumbo-text button{
-    margin: 10px;
-    font-size: 1.2rem;
-}
-
 
 /* MAIN */
 /* Creo le SECTION del main*/
