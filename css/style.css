@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+/* ROOTS */
+:root{
+    --size-md: 1.4rem;
+}
 
 /* GENERICS */
 body{
@@ -27,7 +31,7 @@ button{
     cursor: pointer;
     text-align: center;
     vertical-align: middle;
-    font-size: 1.4rem;
+    font-size: var(--size-md);
 }
 h1{
     font-size: 3rem;
@@ -80,16 +84,20 @@ header{
 }
 /*Creo il TOPHEADER*/
 .topheader{
-    height: 80px;    
+    height: 80px;  
     justify-content: space-between;
     align-items: center;
 }
 .logo{
-    padding-right: 30px;
+    height: 80px;
+    flex-basis: 20%;
+    background-image: url("../img/logo.svg");    
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center left;
 }
 .navbar{
     flex-grow: 1;
-    padding: 10px;
 }
 /*Lista di link per la navbar*/
 .link-list{
@@ -102,6 +110,7 @@ header{
 }
 .topheader button{
     font-size: 1rem;
+    /*flex-basis: 20%; come mai se metto il flex basis il button si allunga?*/
 }
 /* JUMBOTRON */
 .jumbotron{
@@ -116,7 +125,7 @@ header{
 .jumbo-text{
     width: 50%;
     text-align: center;
-    font-size: 1.4rem;    
+    font-size: var(--size-md);    
 }
 .jumbo-text p{
     padding: 20px;
@@ -138,12 +147,12 @@ section{
     padding: 25px 50px;
     line-height: 1.5;
     flex-basis: 40%;
-    font-size: 1.4rem;
+    font-size: var(--size-md);
 }
 /*CREO UNA SEZIONE DIVERSA APPOSTA PER L'ULTIMA*/
 .big-box{
     text-align: center;
-    font-size: 1.4rem;
+    font-size: var(--size-md);
     height: 900px;
 }
 .adventuretime{
@@ -206,6 +215,8 @@ footer{
 }
 /*FOOTER BOTTOM*/
 .footer-bottom{
+    height: 80px; /*se tolgo l'img dall'html, devo mettere una height a flex*/
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
