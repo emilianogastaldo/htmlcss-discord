@@ -17,7 +17,7 @@ a{
     color: #fff;
 }
 button{
-    padding: 10px;
+    padding: 10px 30px;
     border-radius: 200px;
     border: 1px solid transparent;
     background-color: #000;
@@ -25,6 +25,11 @@ button{
     cursor: pointer;
     text-align: center;
     vertical-align: middle;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 /* UTILITIES */
 .conteiner{
@@ -55,25 +60,38 @@ header{
     flex-grow: 1;
     padding: 10px;
 }
+/*Lista di link per la navbar*/
+.link-list{
+    text-align: center;
+}
+.link-list > *{
+    display: inline;
+    padding: 0 30px;
+
+}
 .login{
     background-color: red;
     padding: 10px;    
 }
 .jumbotron{
     height: 600px;
-    background-color: brown;
+    padding-top: 100px;
     justify-content: center;
-    padding: 30px 0;
+    background-image: url("../img/jumbo.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
 }
-.testo{
+.jumbo-text{
     width: 50%;
-    background-color: aliceblue;
-}
-.link-list{
     text-align: center;
+    font-size: 1.4rem;    
 }
-li{
-    display: inline;
-    padding: 0 30px;
-
+.jumbo-text p{
+    padding: 20px;
+    line-height: 1.5;
+}
+.jumbo-text button{
+    margin: 10px;
+    font-size: 1.2rem;
 }
