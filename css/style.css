@@ -164,11 +164,12 @@ footer{
 }
 /*FOOTER TOP*/
 .footer-top{
-    height: 600px;
+    height: 500px;
     display: flex;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #3C4763;
 }
+/*FOOTER TOP LEFT*/
 .footer-left{
     flex-basis: 30%;
     padding-right: 30px;
@@ -187,19 +188,22 @@ footer{
     display: flex;
     gap: 25px;
 }
+/*FOOTER TOP RIGHT*/
 .footer-right{
     flex-basis: 70%;
-    background-color: lightcoral;
 }
 .footer-nav{
     height: 100%;
     display: flex;
 }
 .nav-col{
-    background-color: beige;
     flex-basis: 25%;
+    line-height: 2;
 }
-
+.nav-col h4{
+    color: #7289DA;
+    font-weight:700;
+}
 /*FOOTER BOTTOM*/
 .footer-bottom{
     justify-content: space-between;
