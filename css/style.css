@@ -16,6 +16,16 @@ a{
     text-decoration: none;
     color: #fff;
 }
+button{
+    padding: 10px;
+    border-radius: 200px;
+    border: 1px solid transparent;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
 /* UTILITIES */
 .conteiner{
     max-width: 1200px;
@@ -24,7 +34,10 @@ a{
 .flex{
     display: flex;
 }
-
+button.white{
+    background-color: #fff;
+    color: #000;
+}
 /* HEADER*/
 header{
     background-color: #3161E0;
