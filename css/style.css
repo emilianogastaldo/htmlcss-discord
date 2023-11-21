@@ -142,25 +142,26 @@ header{
 /* MAIN */
 /* Creo le SECTION del main*/
 section{
-    height: 700px;
     padding: 60px 0;
 }
 .image-box{
-    padding-right: 25px;
     flex-basis: 60%;
     height: 100%;
 }
 .text-box{
-    padding: 25px 50px;
+    padding-left: 60px;
     line-height: 1.5;
     flex-basis: 40%;
     font-size: var(--size-md);
+}
+.pd-right{
+    padding-left: 0;
+    padding-right: 60px;
 }
 /*CREO UNA SEZIONE DIVERSA APPOSTA PER L'ULTIMA*/
 .big-box{
     text-align: center;
     font-size: var(--size-md);
-    height: 900px;
 }
 .adventuretime{
     width: 45%;
@@ -180,7 +181,6 @@ footer{
 }
 /*FOOTER TOP*/
 .footer-top{
-    height: 500px;
     display: flex;
     padding-bottom: 30px;
     border-bottom: 1px solid #3C4763;
