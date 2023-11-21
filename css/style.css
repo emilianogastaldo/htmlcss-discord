@@ -99,6 +99,10 @@ header{
 .navbar{
     flex-grow: 1;
 }
+.navbar-action{
+    text-align: right;
+    flex-basis: 20%;
+}
 /*Lista di link per la navbar*/
 .link-list{
     text-align: center;
@@ -110,7 +114,9 @@ header{
 }
 .topheader button{
     font-size: 1rem;
-    /*flex-basis: 20%; come mai se metto il flex basis il button si allunga?*/
+    /*flex-basis: 20%; come mai se metto il flex basis il button si allunga?
+    Perché era il bottone stesso un figlio diretto, doveva stare dentro a un 
+    contenitore.*/
 }
 /* JUMBOTRON */
 .jumbotron{
