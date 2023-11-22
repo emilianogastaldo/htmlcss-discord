@@ -110,13 +110,12 @@ header{
 .link-list > *{
     display: inline;
     padding: 0 30px;
-
+}
+.topheader .navbar-action{
+    flex-basis: 20%;
 }
 .topheader button{
     font-size: 1rem;
-    /*flex-basis: 20%; come mai se metto il flex basis il button si allunga?
-    Perché era il bottone stesso un figlio diretto, doveva stare dentro a un 
-    contenitore.*/
 }
 /* JUMBOTRON */
 .jumbotron{
@@ -181,7 +180,6 @@ footer{
 }
 /*FOOTER TOP*/
 .footer-top{
-    display: flex;
     padding-bottom: 30px;
     border-bottom: 1px solid #3C4763;
 }
@@ -223,7 +221,6 @@ footer{
 /*FOOTER BOTTOM*/
 .footer-bottom{
     height: 80px; /*se tolgo l'img dall'html, devo mettere una height a flex*/
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
