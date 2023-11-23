@@ -142,6 +142,7 @@ header{
 /* Creo le SECTION del main*/
 section{
     padding: 60px 0;
+    margin-top: 150px;
 }
 .image-box{
     flex-basis: 60%;
@@ -226,4 +227,29 @@ footer{
 }
 .footer-bottom > button{
     font-size: 1rem;
+}
+
+/*CREO LE ONDE*/
+section.waved{
+    position: relative;
+}
+
+section.waved::before, /*centralizzo gli atributi in comune*/
+section.waved.upside-down::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-image: url('../img/wave.svg');
+    
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+
+    opacity: 0.04;
+}
+
+section.waved.upside-down::after{    
+    top: 100%;
+    rotate: 0.5turn;
 }
